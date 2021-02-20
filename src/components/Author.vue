@@ -13,15 +13,15 @@
       {{ $static.metadata.siteName }}
     </h1>
 
-    <p class="author__intro">
-      <!-- eslint-disable-next-line -->
-      阿巴阿巴 o((>ω< ))o
-    </p>
+    <!--    <p class="author__intro">-->
+    <!--      &lt;!&ndash; eslint-disable-next-line &ndash;&gt;-->
+    <!--      阿巴阿巴 o((>ω< ))o-->
+    <!--    </p>-->
 
     <p class="author__links">
       <g-link
-        href="//spencerwoo.com"
-        target="_blank"
+        href='//ivyxjc.com'
+        target='_blank'
         v-tooltip="{ content: '🚀 Portfolio' }"
         ><font-awesome :icon="['fas', 'id-badge']"
       /></g-link>
@@ -44,31 +44,10 @@
         ><font-awesome :icon="['fas', 'comment-dots']"/></g-link
       >/
       <a
-        href="//twitter.com/realSpencerWoo"
-        target="_blank"
-        style="color: #1da1f2;"
-        v-tooltip="{ content: '🔗 @realSpencerWoo' }"
-        ><font-awesome :icon="['fab', 'twitter']"
-      /></a>
-      <a
-        href="//weibo.com/spencerwoo"
-        target="_blank"
-        style="color: #E00;"
-        v-tooltip="{ content: '🔗 @spencerwoo' }"
-        ><font-awesome :icon="['fab', 'weibo']"
-      /></a>
-      <a
-        href="//t.me/realSpencerWoo"
-        target="_blank"
-        style="color: #179cde;"
-        v-tooltip="{ content: '🔗 @realSpencerWoo' }"
-        ><font-awesome :icon="['fab', 'telegram']"
-      /></a>
-      <a
-        href="//github.com/spencerwooo"
-        target="_blank"
-        style="color: var(--title-color);"
-        v-tooltip="{ content: '🔗 @spencerwooo' }"
+        href='//github.com/ivyxjc'
+        target='_blank'
+        style='color: var(--title-color);'
+        v-tooltip="{ content: '🔗 @ivyxjc' }"
         ><font-awesome :icon="['fab', 'github']"
       /></a>
     </p>

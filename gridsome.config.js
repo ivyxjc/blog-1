@@ -8,9 +8,9 @@ const marked = require('marked')
 // const yaml = require('js-yaml')
 
 module.exports = {
-  siteUrl: 'https://blog.spencerwoo.com',
-  siteName: "Spencer's Blog",
-  siteDescription: '开发者 / 设计师 / 少数派 / 学生',
+  siteUrl: 'https://blog.ivyxjc.com',
+  siteName: 'ivyxjc\'s Blog',
+  siteDescription: '开发者',
 
   templates: {
     Post: '/:year/:month/:slug',
@@ -38,10 +38,11 @@ module.exports = {
       options: {
         contentTypes: ['Post'],
         feedOptions: {
-          title: "Spencer's Blog",
-          description: 'Spencer Woo - 开发者 / 设计师 / 少数派 / 学生',
-          image: 'https://blog.spencerwoo.com/av.png',
-          favicon: 'https://blog.spencerwoo.com/av.png',
+          title: 'ivyxjc\'s Blog',
+          description: 'ivyxjc - 开发者',
+          //todo change avatar
+          image: 'https://blog.ivyxjc.com/av.png',
+          favicon: 'https://blog.ivyxjc.com/av.png',
         },
         rss: {
           enabled: true,
@@ -59,6 +60,7 @@ module.exports = {
     },
     {
       use: '@gridsome/plugin-google-analytics',
+      //todo change ga id
       options: {
         id: 'UA-111664763-2',
       },

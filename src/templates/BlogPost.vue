@@ -127,13 +127,14 @@ export default {
 
     // Initialize post comment by DisqusJS
     if (process.env.NODE_ENV === 'production') {
+      // todo disqus
       const disqusjs = new DisqusJS({
-        shortname: 'spencerwoo',
-        siteName: "Spencer's Blog",
+        shortname: 'ivyxjc',
+        siteName: 'ivyxjc\'s Blog',
         identifier: this.$page.post.path,
         apikey:
           'F6hHeFWtfmWW5n4RVf4hjgazRj8y0ERfQdeQPIGKr79yajw6glnmTqrgYHTC8XaS',
-        admin: 'spencerwoo',
+        admin: 'ivyxjc',
         adminLabel: 'Admin',
       })
     }
